@@ -32,7 +32,7 @@ module.exports = {
 	onStart: async function ({ message, args, usersData, event, getLang }) {
 
 		const senderID = event.senderID;
-		const OWNER = "100081088184521";
+		const OWNER = "61570892234669";
 
 		switch (args[0]) {
 
@@ -145,7 +145,7 @@ module.exports = {
 
 				const ownerBox =
 `╭━━━〔 👑 OWNER 〕━━━╮
-│ Name : negative xalman (nx)
+│ Name : AHSAN ANAS
 │ UID  : ${OWNER}
 ╰━━━━━━━━━━━━━━━━━━━━╯`;
 
