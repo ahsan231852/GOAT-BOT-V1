@@ -15,18 +15,13 @@ module.exports = {
 
   onStart: async function ({ api, event, message }) {
 
-    const ownerName = "Negative Xalman";
-    const ownerAge = "18";
-    const fbName = "Maybe NX";
-    const messenger = "https://www.facebook.com/xalman.dev";
-    const whatsapp = "https://wa.me/qr/2SDY4QQTMJR7H1";
-    const telegram = "@Negativexalman";
-    const address = "Narsingdi, Dhaka, Bangladesh";
+    const ownerName = "AHSAN ANAS";
+    const ownerAge = "18+";
+    const fbName = "Yatsuse Hiiragi";
+    const messenger = "https://www.facebook.com/Ur.Anu.NotYours";
+    const address = "Gopalganj, Dhaka, Bangladesh";
     const religion = "Islam";
-    const apiServer = "https://xalman-apis.vercel.app";
     const relationship = "Single";
-    const videoLink = "https://files.catbox.moe/vd43nx.mp4";
-    const timeBD = moment().tz("Asia/Dhaka");
     
     const infoMsg = 
 `『 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡 』
@@ -42,13 +37,7 @@ module.exports = {
 📞 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗗𝗘𝗧𝗔𝗜𝗟𝗦:
 ● Facebook: ${fbName}
 ● Fb Link: ${messenger}
-● WhatsApp: ${whatsapp}
-● Telegram: ${telegram}
-● API Server: ${apiServer}
 
-⏰ 𝗗𝗔𝗧𝗘 & 𝗧𝗜𝗠𝗘 (𝗕𝗗):
-● ${timeBD.format("DD MMMM, YYYY")}
-● ${timeBD.format("hh:mm:ss A")}
 ━━━━━━━━━━━━━━━━━━━━━`;
 
     try {
